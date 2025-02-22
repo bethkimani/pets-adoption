@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.icon p {
+  margin-top: 8px; /* Space between icon and text */
+  text-align: center;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon p {
+  margin-top: 8px; /* Space between icon and text */
+}
+
+
+.about-us {
+  padding: 20px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+}
+
+.services {
+  padding: 20px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+
+.adoption {
+  padding: 20px 0;
+}
+
+h2, h3 {
+  margin-bottom: 10px;
+}
+
+input {
+  max-width: 300px;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
