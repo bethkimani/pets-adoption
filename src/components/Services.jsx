@@ -1,21 +1,17 @@
-import React from 'react';
-
+// src/components/Services.jsx
 const Services = () => {
   return (
-    <div className="py-10">
-      <h3 className="text-2xl font-bold">Shop & Save</h3>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-        <div className="bg-white shadow rounded-lg p-4">
-          <h4 className="font-semibold">Royal Canin</h4>
-          <p>10% off</p>
+    <div className="p-6" id="adoption-info">
+      <h2 className="text-2xl font-bold text-center">What We Offer</h2>
+      <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="bg-white p-4 rounded shadow text-center">
+          <h3 className="font-bold">Dog Training</h3>
         </div>
-        <div className="bg-white shadow rounded-lg p-4">
-          <h4 className="font-semibold">Dog Food</h4>
-          <p>15% off</p>
+        <div className="bg-white p-4 rounded shadow text-center">
+          <h3 className="font-bold">Hygienic Care</h3>
         </div>
-        <div className="bg-white shadow rounded-lg p-4">
-          <h4 className="font-semibold">Dog Toys</h4>
-          <p>20% off</p>
+        <div className="bg-white p-4 rounded shadow text-center">
+          <h3 className="font-bold">Healthcare Tips</h3>
         </div>
       </div>
     </div>
